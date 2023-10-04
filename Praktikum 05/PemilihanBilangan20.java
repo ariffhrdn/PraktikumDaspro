@@ -7,7 +7,14 @@ public class PemilihanBilangan20{
         System.out.print("Masukkan Sebuah Angka: ");
         int angka = sc.nextInt();
 
-        if{}
+        if (angka % 2 == 0)
+        {
+          System.out.println("Angka" + angka + "Termasuk Bilangan Genap");
+        }
+        else
+        {
+          System.out.println("Angka" + angka + "Termasuk Bilangan Ganjil");
+        }
 
     
     }
