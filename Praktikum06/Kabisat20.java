@@ -6,7 +6,7 @@ public class Kabisat20 {
         System.out.println("Masukkan Tahun: ");
         int tahun = sc.nextInt();
 
-        if  ((tahun % 4) ==0 && (tahun % 100) !=0) {
+        if  ((tahun % 4) ==0 && (tahun % 100) !=0 || (tahun % 400) ==0) {
             System.out.println("Tahun Kabisat");
 
         } else {
