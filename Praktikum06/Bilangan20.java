@@ -12,19 +12,10 @@ public class Bilangan20 {
         bil3 = sc.nextInt();
 
     
-        if (bil1 > bil2) {
-            if (bil1 > bil3) {
-                System.out.println("Bilangan terbesar adalah " + bil1);
-            }else {
-                System.out.println("Bilangan terbesar adalah " + bil3);
-            } 
+        bilanganTerbesar = bil1 > bil2 ? (bil1 > bil3 ? bil1 : (bil1 > bil3 ? bil1 : bil3)) : (bil1 > bil3 ? bil2 : (bil2 > bil3 ? bil2 : bil3));
 
-        } else {
-            if (bil2 > bil3) {
-                System.out.println("Bilangan terbesar adalah " + bil2);
-            } else 
-                System.out.println("Bilangan terbesar adalah " + bil3);
-        }
+        System.out.print("Bilangan terbesar: " + bilanganTerbesar);
+        bilanganTerbesar = sc.nextInt();
     }
     
 }
