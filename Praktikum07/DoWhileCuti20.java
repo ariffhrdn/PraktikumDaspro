@@ -26,6 +26,9 @@ public class DoWhileCuti20 {
                     continue;
                     
                 }
+            } else {
+                System.out.println("Anda tidak mengambil cuti");
+                break;
             }
         } while (jatahCuti > 0);
             
