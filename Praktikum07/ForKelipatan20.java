@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ForKelipatan20 {
     public static void main(String[] args) {
         int bilangan, total, counter;
+        double rata;
         Scanner sc = new Scanner(System.in);
         total = 0;
         counter = 0;
@@ -17,5 +18,9 @@ public class ForKelipatan20 {
         }
 
         System.out.printf("Pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter, bilangan, total);
+        System.out.println("");
+
+        rata=(double)total/counter;
+        System.out.println("rata rata: " + rata);
     }
 }
