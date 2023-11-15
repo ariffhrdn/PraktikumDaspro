@@ -34,7 +34,7 @@ public class NestedLoop20 {
 
         
         for (int i = 0; i < suhu.length; i++) {
-            System.out.print("Rata rata suhu kota ke- " + (i+1) + "adalah: ");
+            System.out.print("Rata rata suhu kota ke- " + (i+1) + " adalah: ");
             double total = 0;
             for (int j = 0; j < suhu[i].length; j++) {
                 total = total + suhu[i][j];
@@ -42,7 +42,7 @@ public class NestedLoop20 {
             rata =(double)total / suhu[i].length;
             System.out.println(rata);
         }
-sc.close();
+        sc.close();
     }
     
 }
